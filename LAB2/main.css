@@ -1,0 +1,52 @@
+p { margin: 5px 5px 0px 20px; line-height: 120%; }
+body { font-size: 15px; }
+
+.title { font-family: 'Anton', 'Allan'; font-size: 50px; }
+
+.background_blue { background-color: #70919e; }
+.background_blue:hover { background-color: #040a31; color: white; }
+.background_black { background-color: #636161; }
+.background_black:hover { background-color: black; color: white; }
+.background_green { background-color: #b3f5d2; }
+.background_green:hover { background-color: #045a57; color: white; }
+.background_red { background-color: #f59c81; }
+.background_red:hover { background-color: #410a09; color: white; }
+
+
+
+.bold { font-weight: bold; }
+
+.void_button { text-align: center;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: yellowgreen;
+				color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px;
+				outline: 0; }
+.switch_button { text-align: center;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px; }
+.switch_button:hover { text-align: center;
+				margin-bottom: 10px;
+				border-style: none;
+				background-color: yellowgreen;
+				color: white;
+				padding: 2px 0px 2px 0px;
+				font-size: 18px; }
+
+.finish_button { text-align: center;
+				width: 120px; height: 30px;
+				margin: 0px;
+				border-width: thin; 
+				border-style: solid;
+				border-color: black; }
+.finish_button:hover { text-align: center;
+				width: 120px; height: 30px;
+				margin: 0px;
+				border-width: thin; 
+				border-style: solid;
+				border-color: black; }
