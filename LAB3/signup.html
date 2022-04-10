@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LAB2-singup</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Allan&display=swap" rel="stylesheet">	
+	</head>
+	
+	<body>
+		<br><div class="title">
+			<p>Welcome to INTERNET-PROGRAMMING SHOP</p>
+		</div><br><br>
+		<p><button type="button" style="margin-right: 3px;" class="switch_button" onclick="location.href='./login.html'">로그인</button>
+			<button type="button" style="margin-left: 3px;" class="void_button">회원가입</button></p>
+		<hr width="100%" color="black" size="3"><br>
+		<p class="bold">개인정보 (필수)</p>
+		<form method="post" action="./signup.html" autocomplete="on">
+			<p><label>이름 : 
+				<input type="text" id="user_name" style="width: 120px;" autofocus
+					placeholder="이름을 입력하세요" required />
+				</label></p>
+			<p><label>생일 : 
+				<input type="date" id="user_birth" required />
+				</label></p>
+            <p><label>학년 :
+                <input type="number" min="1" max="4" step="1" />
+                </label></p>
+            <p><label>전화번호 : 
+                <input type="tel" id="user_tel" style="width: 100px;"
+                    placeholder="###-####-####"
+                    pattern="\d{3}-\d{4}-\d{4}" required />
+                </label></p>    
+			<p><label>유저 아이디 : 
+				<input type="text" id="user_id"
+					placeholder="아이디를 입력하세요" required />
+				</label></p>
+			<p><label>비밀번호 : 
+				<input type="text" id="user_password"
+					placeholder="비밀번호 입력하세요" required />
+				</label></p>
+			<p><label>비밀번호 확인 : 
+				<input type="text" id="user_password"
+					placeholder="비밀번호 확인" required />
+				</label></p>
+			<p><button type="submit" style="margin-right: -4px;" class="background_green finish_button">Signup</button>
+				<button type="reset" style="margin-left: -3px;" class="background_red finish_button">Cancel</button></p>
+		</form>
+		<hr width="100%" color="black" size="3">
+	</body>
+</html>

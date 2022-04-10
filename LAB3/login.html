@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LAB2-login</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Allan&display=swap" rel="stylesheet">	
+	</head>
+	
+	<body>
+		<br><div class="title">
+			<p>Welcome to INTERNET-PROGRAMMING SHOP</p>
+		</div><br><br>
+		<p><button type="button" style="margin-right: 3px;" class="void_button">로그인</button>
+		<hr width="100%" color="black" size="3"><br>
+		<p class="bold">회원 정보 (필수)</p>
+		<form method="post" action="./login.html" autocomplete="on">
+			<p><label>유저 아이디 : 
+				<input type="text" id="user_id" autofocus
+					placeholder="아이디를 입력하세요" required />
+				</label></p>
+			<p><label>비밀번호 : 
+				<input type="text" id="user_password"
+					placeholder="비밀번호 입력하세요" required />
+				</label></p>
+			<p><label>비밀번호 확인 : 
+				<input type="text" id="user_password"
+					placeholder="비밀번호 확인" required />
+				</label></p>	
+			<p><button type="submit" style="margin-right: -4px;" class="background_blue finish_button">로그인</button>
+				<button type="reset" style="margin-left: -3px;" class="background_black finish_button">초기화</button></p>
+		</form>
+		<hr width="100%" color="black" size="3">
+	</body>
+</html>
